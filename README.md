@@ -16,9 +16,12 @@ chmod a+x youtube_marge.sh
 
 ```
 ./youtube_marge.sh
-Input Youtube Video ID 
-Simple Video id 6********k
 ```
+
+* Enter YouTube Video Id
+For example `https://www.youtube.com/watch?v=gLzKkIcw5Yg` The video id is `gLzKkIcw5Yg`
+
+* Enjoy
 
 # Note 
 * Supported Video Type: `137 + 140`
