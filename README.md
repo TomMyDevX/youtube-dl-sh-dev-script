@@ -1,15 +1,27 @@
 # youtube-dl-sh-dev-script
 
-Need
-  - Youtube-dl
-  - ffmpeg
+## Prerequisite
+  - youtube-dl (https://github.com/ytdl-org/youtube-dl)
+  - ffmpeg (https://github.com/FFmpeg/FFmpeg)
 
-  
-Intallation
-  Place youtube_marge.sh on folder
-  then  chmod a+x youtube_marge.sh
-  run	./youtube_marge.sh
-  input Youtube Video ID 
-  Simple Video id 6********k
-  
-Note Video type Support 137+140
+# Intallation
+* Clone or Export this repository.
+* Change file mode 
+
+```
+chmod a+x youtube_marge.sh
+```
+
+* Run script
+
+```
+./youtube_marge.sh
+```
+
+* Enter YouTube Video Id
+For example `https://www.youtube.com/watch?v=gLzKkIcw5Yg` The video id is `gLzKkIcw5Yg`
+
+* Enjoy
+
+# Note 
+* Supported Video Type: `137 + 140`
