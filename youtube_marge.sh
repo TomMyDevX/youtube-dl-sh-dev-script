@@ -1,6 +1,11 @@
 #!/bin/bash
-echo VideoID?
+if [ -z $1 ]; then
+ echo VideoID?;
 read video_id
+else
+ video_id=$1
+fi
+
 mkdir $video_id
 cd $video_id
 youtube-dl -f 137 $video_id
