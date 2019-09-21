@@ -40,8 +40,9 @@ rm "$audio_f_name"
 
 
 echo "Copy File Out To Top Folder"
-cp "out/$video_f_name" "$video_f_name" 
+cd ..
+cp "$video_id/out/$video_f_name" "$video_f_name" 
 
-rm -rf "out"
+rm -rf "$video_id"
 
 echo "Bye Bye!";
